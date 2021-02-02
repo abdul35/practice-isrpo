@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.warning {
+    color: rgb(185, 175, 27);
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+}
+
+input, button {
+    margin: 1rem;
+    padding: .5rem;
+    font-size: 18px;
+}
+
+textarea {
+    margin-left: 1rem;
+    padding: .5rem;
+    font-size: 18px;
+}
+
+h1, a {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+.user {
+    font-family: sans-serif;
+    margin: auto;
+    width: 75%;
+    background-color: rgb(209, 209, 209);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.user__message {
+    margin-top: 2%;
+}
+a.user__remove {
+    margin-top: 0.3rem;
+}
