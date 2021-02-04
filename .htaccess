@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !^/routing.php
+
+RewriteRule ^(.*?)/?$ routing.php?rout=$1
+
